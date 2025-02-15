@@ -2,14 +2,15 @@ Nazwa projektu:
 Błądzenie losowe
 
 Opis: 
-Program służy do generowania wielu błądzeń losowych, czyli ścieżek pozbawionych wyraźnego kierunku, który jest ustalany na podstawie serii losowych decyzji, a ich wynik jest całkowicie nieprzewidywalny,
+Jest to zmodyfikowana wersja programu z książki autorstwa Eric Matthes pod tytułem: "Python Crash Course: A Hands-On, Project-Based Introduction to Programming" wydanej w 2023 roku przez wydawnictwo No Starch Press. Program służy do generowania wielu błądzeń losowych, czyli ścieżek pozbawionych wyraźnego kierunku, który jest ustalany na podstawie serii losowych decyzji, a ich wynik jest całkowicie nieprzewidywalny,
 co może być wykorzystywane m.in. do modelowania cząsteczek w cieczy lub gazie, w procesach stochastycznych, do modelowania cen akcji i rynków finansowych.
 
 Instalacja: 
 W celu uruchomienia programu należy:
 1. Zainstalować najnowszą wersję programu Python.
-2. Sklonować lub pobrać moje repozytorium do nowego folderu na swoim komputerze.
-3. Otworzyć plik: wizualizacja_bladzenie_losowego.py
+2. Pobrać i zainstalować bibliotekę matplotlib przez uruchomienie wiersza poleceń i wpisanie w nim komendy: pip install matplotlib.
+3. Sklonować lub pobrać moje repozytorium do nowego folderu na swoim komputerze.
+4. Otworzyć plik: wizualizacja_bladzenie_losowego.py
 
 Użycie: 
 W pliku `wizualizacja_bladzenia_losowego.py` w argumencie klasy `RandomWalk` (w 8. linii) podajemy liczbę punktów, które mają zostać wygenerowane w ramach błądzenia losowego. 
