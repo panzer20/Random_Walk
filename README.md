@@ -24,6 +24,7 @@ Wartości argumentów `c` i `s` w funkcji `ax.scatter` w 19. linii dotyczą pier
 Podobnie, w funkcji `ax.scatter` w 20. linii, argumenty działają analogicznie, ale dotyczą ostatniego punktu błądzenia.
 Po wygenerowaniu wykresu błądzenia losowego, istnieje możliwość zapisania go na dysku. W tym celu należy kliknąć na ikonę dyskietki w lewym dolnym rogu wykresu, a następnie wybrać lokalizację, w której chcemy zapisać plik.
 
+Screenshots:
 ![Screenshot](./screenshots/Random_Walk.PNG)
 
 Licencja:
