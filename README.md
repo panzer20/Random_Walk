@@ -11,9 +11,10 @@ which can be used, among others, to model particles in a liquid or gas, in stoch
 Installation:
 To run the program, you must:
 1. Install the latest version of Python.
-2. Download and install the matplotlib library by running the command line and entering the command: pip install matplotlib.
-3. Clone or download my repository to a new folder on your computer.
-4. Open the file: wizacja_bladzenie_losowego.py
+2. Clone the repository by entering the following command in shell: git clone https://github.com/panzer20/Random_Walk.git
+3. Create a virtual environment by entering the following command in the shell: python3 -m venv your_folder_name
+4. In a shell, go to the folder where the cloned repository is located and type the command: pip install -r requirements.txt
+5. Open the file: wizacja_bladzenie_losowego.py
 
 Usage:
 In the file `wizualizacja_bladzenia_losowego.py` in the argument of the `RandomWalk` class (line 8) we provide the number of points to be generated as part of the random walk.
@@ -48,9 +49,10 @@ co może być wykorzystywane m.in. do modelowania cząsteczek w cieczy lub gazie
 Instalacja: 
 W celu uruchomienia programu należy:
 1. Zainstalować najnowszą wersję programu Python.
-2. Pobrać i zainstalować bibliotekę matplotlib przez uruchomienie wiersza poleceń i wpisanie w nim komendy: pip install matplotlib.
-3. Sklonować lub pobrać moje repozytorium do nowego folderu na swoim komputerze.
-4. Otworzyć plik: wizualizacja_bladzenie_losowego.py
+2. Sklonować repozytorium przez wpisanie w powłoce polecenia: git clone https://github.com/panzer20/Random_Walk.git
+3. Utworzyć środowisko wirtualne przez wprowadzenie w powłoce polecenia: python3 -m venv nazwa_twojego_folderu
+4. Przejść w powłoce do folderu, w którym znajduje się sklonowane repozytorium i wprowadzić komendę: pip install -r requirements.txt
+5. Otworzyć plik: wizualizacja_bladzenie_losowego.py
 
 Użycie: 
 W pliku `wizualizacja_bladzenia_losowego.py` w argumencie klasy `RandomWalk` (w 8. linii) podajemy liczbę punktów, które mają zostać wygenerowane w ramach błądzenia losowego. 
