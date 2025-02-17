@@ -1,3 +1,43 @@
+Language:
+English
+
+Project name:
+Random walk
+
+Description:
+This is a modified version of the program from the book by Eric Matthes entitled: "Python Crash Course: A Hands-On, Project-Based Introduction to Programming" published in 2023 by No Starch Press. The program is used to generate many random walks, i.e. paths without a clear direction, which is determined by a series of random decisions, and their outcome is completely unpredictable,
+which can be used, among others, to model particles in a liquid or gas, in stochastic processes, to model stock prices and financial markets.
+
+Installation:
+To run the program, you must:
+1. Install the latest version of Python.
+2. Download and install the matplotlib library by running the command line and entering the command: pip install matplotlib.
+3. Clone or download my repository to a new folder on your computer.
+4. Open the file: wizacja_bladzenie_losowego.py
+
+Usage:
+In the file `wizualizacja_bladzenia_losowego.py` in the argument of the `RandomWalk` class (line 8) we provide the number of points to be generated as part of the random walk.
+In the function `plt.style.use` (line 12) as an argument we can provide one of the available chart styles in `matplotlib`.
+The value of the `figsize` argument of the `plt.subplots` function (line 12) can be any two numbers that specify the width and height of the chart window in inches.
+In the function `ax.scatter` (line 15) as the value of the `c` argument we can provide the name of the color in English format (e.g. `'red'`, `'blue'`, etc.), or if we want to use a color map, we can leave the default value of `point_numbers`. Additionally, in the `cmap=plt.cm.` argument we can specify the name of the color map (e.g. `plt.cm.Blues`).
+The `s` argument in the `ax.scatter` function (in line 15) is used to determine the size of all dots on the graph.
+The values ​​of the `c` and `s` arguments in the `ax.scatter` function in line 19 refer to the first point of the random walk, where:
+- `c` is the color of the first point,
+- `s` is its size.
+Similarly, in the `ax.scatter` function in line 20, the arguments work analogously, but refer to the last point of the walk.
+After generating the random walk graph, it is possible to save it to disk. To do this, click on the floppy disk icon in the lower left corner of the graph, and then select the location where you want to save the file.
+
+Screenshots:
+
+![Screenshot](./screenshots/Random_Walk.PNG)
+
+License:
+MIT License
+
+
+Język:
+Polski
+
 Nazwa projektu: 
 Błądzenie losowe
 
