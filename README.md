@@ -12,7 +12,11 @@ Installation:
 To run the program, you must:
 1. Install the latest version of Python.
 2. Clone the repository by entering the following command in shell: git clone https://github.com/panzer20/Random_Walk.git
-3. Create a virtual environment by entering the following command in the shell: python3 -m venv your_folder_name
+3. Create a virtual environment by entering the following command in the shell: python3 -m venv your_folder_name and then activate it in the shell using the command:
+a) Linux/macOS:
+source environment_name/bin/activate
+b) Windows
+source environment_name/Scripts/activate
 4. In a shell, go to the folder where the cloned repository is located and type the command: pip install -r requirements.txt
 5. Open the file: wizacja_bladzenie_losowego.py
 
@@ -50,7 +54,11 @@ Instalacja:
 W celu uruchomienia programu należy:
 1. Zainstalować najnowszą wersję programu Python.
 2. Sklonować repozytorium przez wpisanie w powłoce polecenia: git clone https://github.com/panzer20/Random_Walk.git
-3. Utworzyć środowisko wirtualne przez wprowadzenie w powłoce polecenia: python3 -m venv nazwa_twojego_folderu
+3. Utworzyć środowisko wirtualne przez wprowadzenie w powłoce polecenia: python3 -m venv nazwa_twojego_folderu a następnie aktywować je w powłoce za pomocą polecenia:
+a) Linux/macOS:
+source nazwa_środowiska/bin/activate
+b) Windows
+source nazwa_środowiska/Scripts/activate
 4. Przejść w powłoce do folderu, w którym znajduje się sklonowane repozytorium i wprowadzić komendę: pip install -r requirements.txt
 5. Otworzyć plik: wizualizacja_bladzenie_losowego.py
 
