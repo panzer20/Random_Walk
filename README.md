@@ -26,7 +26,7 @@ After generating the random walk graph, it is possible to save it to disk. To do
 
 Screenshots:
 
-![Random walk](Random_walk_visualization.html)
+![Random walk](Random_walk_visualization.png)
 
 Język:
 Polski
@@ -56,4 +56,4 @@ Po wygenerowaniu wykresu błądzenia losowego, istnieje możliwość zapisania g
 
 Screenshots:
 
-![Random walk](Random_walk_visualization.html)
+![Random walk](Random_walk_visualization.png)
