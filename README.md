@@ -26,8 +26,6 @@ After generating the random walk graph, it is possible to save it to disk. To do
 
 Screenshots:
 
-![Screenshot](./screenshots/Random_Walk.PNG)
-
 Język:
 Polski
 
@@ -55,5 +53,3 @@ W pliku `wizualizacja_bladzenia_losowego.py` w argumencie klasy `RandomWalk` (w 
 Po wygenerowaniu wykresu błądzenia losowego, istnieje możliwość zapisania go na dysku. W tym celu należy kliknąć na ikonę dyskietki w lewym dolnym rogu wykresu, a następnie wybrać lokalizację, w której chcemy zapisać plik.
 
 Screenshots:
-
-![Screenshot](./screenshots/Random_Walk.PNG)
