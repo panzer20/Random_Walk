@@ -28,6 +28,8 @@ Screenshots:
 
 ![Random walk](Random_walk_visualization.png)
 
+License: MIT License
+
 Język:
 Polski
 
@@ -57,3 +59,5 @@ Plik z wizualizacją błądzenia losowego zapisuje się w tym samym folderze, w 
 Screenshots:
 
 ![Random walk](Random_walk_visualization.png)
+
+Licencja: MIT License
