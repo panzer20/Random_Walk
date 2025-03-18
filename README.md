@@ -30,6 +30,7 @@ Screenshots:
 
 License: MIT License
 
+
 Język:
 Polski
 
