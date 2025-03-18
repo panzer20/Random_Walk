@@ -22,7 +22,7 @@ source environment_name/Scripts/activate
 
 Usage:
 In the file `Random_walk_visualization.py` in the argument of the `RandomWalk` class (line 8) we provide the number of points to be generated as part of the random walk.
-After generating the random walk graph, it is possible to save it to disk. To do this, click on the floppy disk icon in the lower left corner of the graph, and then select the location where you want to save the file.
+The random walk visualization file is saved in the same folder where the Random_walk_visualization.py file is located.
 
 Screenshots:
 
@@ -52,7 +52,7 @@ source nazwa_środowiska/Scripts/activate
 
 Użycie: 
 W pliku `wizualizacja_bladzenia_losowego.py` w argumencie klasy `RandomWalk` (w 8. linii) podajemy liczbę punktów, które mają zostać wygenerowane w ramach błądzenia losowego.
-Po wygenerowaniu wykresu błądzenia losowego, istnieje możliwość zapisania go na dysku. W tym celu należy kliknąć na ikonę dyskietki w lewym dolnym rogu wykresu, a następnie wybrać lokalizację, w której chcemy zapisać plik.
+Plik z wizualizacją błądzenia losowego zapisuje się w tym samym folderze, w którym znajduje się plik Random_walk_visualization.py
 
 Screenshots:
 
